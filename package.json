@@ -1,0 +1,62 @@
+{
+  "name": "i6o-blog",
+  "private": true,
+  "description": "i6o company official blog",
+  "version": "1.0.0",
+  "author": "Marko Ikäheimo <marko.ikaheimo@i6o.fi>",
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
+    "bootstrap": "^5.2.2",
+    "gatsby": "^4.24.3",
+    "gatsby-plugin-feed": "^4.24.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-image": "^2.24.0",
+    "gatsby-plugin-manifest": "^4.24.0",
+    "gatsby-plugin-react-helmet": "^5.24.0",
+    "gatsby-plugin-sharp": "^4.24.0",
+    "gatsby-plugin-styled-components": "^5.24.0",
+    "gatsby-plugin-use-dark-mode": "^1.5.0",
+    "gatsby-remark-copy-linked-files": "^5.24.0",
+    "gatsby-remark-images": "^6.24.0",
+    "gatsby-remark-prismjs": "^6.24.0",
+    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby-remark-responsive-iframe": "^5.24.0",
+    "gatsby-remark-smartypants": "^5.24.0",
+    "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-transformer-remark": "^5.24.0",
+    "gatsby-transformer-sharp": "^4.24.0",
+    "prismjs": "^1.29.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.37.0",
+    "react-kawaii": "^0.18.0",
+    "react-netlify-forms": "^1.3.3",
+    "react-toggle-dark-mode": "^1.1.0",
+    "styled-components": "^5.3.6",
+    "use-dark-mode": "^2.3.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "prettier": "2.7.1"
+  },
+  "homepage": "https://i6o.github.io",
+  "keywords": [
+    "i6o blog"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i6o/i6o.github.io.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run dev",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -f -d public -b main",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}
