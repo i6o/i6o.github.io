@@ -4,7 +4,6 @@ import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import styled from 'styled-components';
 import StyledLink from '../components/styled-link';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const HomePage = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes;

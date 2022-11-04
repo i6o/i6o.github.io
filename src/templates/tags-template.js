@@ -4,7 +4,6 @@ import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import StyledLink from '../components/styled-link';
 import styled from 'styled-components';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function TotalCount(props) {
   let message = "";
