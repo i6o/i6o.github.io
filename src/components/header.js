@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import Container from "./container";
 import ThemeSwitch from "./theme-switch";
-import { useStaticQuery, graphql } from "gatsby";
 
 //import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -33,20 +32,6 @@ const HEADER_NAV_ITEM = [
 ];
 
 const Header = () => {
-  /*
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `
-  );
-  */
-
   return (
     <StyledHeader>
       <HeaderWrapper>
